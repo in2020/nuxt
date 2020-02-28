@@ -2,7 +2,7 @@
   <div>
     <header class="hf_layout_header uk-navbar" uk-navbar="">
       <div class="hf_layout_core_wrap hf_layout_header_wrap">
-        <nuxt-link href="/aaa"><img src="https://www.homefit.co.kr/static/img/common/header/homefit.black.png?rev=0.012c" class="hf_header_homefit" alt="HOMEFIT"></nuxt-link>
+        <nuxt-link to="/aaa"><img src="https://www.homefit.co.kr/static/img/common/header/homefit.black.png?rev=0.012c" class="hf_header_homefit" alt="HOMEFIT"></nuxt-link>
         <nav class="hf_layout_header_nav">
           <ul>
             <!-- <li>
