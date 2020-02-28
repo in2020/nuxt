@@ -1,92 +1,33 @@
 <template>
-  <v-layout
-    column
-    justify-center
-    align-center
-  >
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-      <div class="text-center">
-        <logo />
-        <vuetify-logo />
+  <section class="hf_main_banner">
+    <div class="hf_banner_wrap">
+      <div class="hf_intro_movie">
+        <video poster="//cdn.homefit.co.kr/movie/main/movie009.jpg" id="movie002" playsinline="" muted="" loop="" preload="true" controlslist="nodownload">
+          <source src="//cdn.homefit.co.kr/movie/main/movie009.mp4" type="video/mp4">
+        </video>
       </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
-              target="_blank"
-            >
-              documentation
-            </a>.
-          </p>
-          <p>
-            If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
-              target="_blank"
-              title="chat"
-            >
-              discord
-            </a>.
-          </p>
-          <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board
-            </a>.
-          </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a
-            href="https://nuxtjs.org/"
-            target="_blank"
-          >
-            Nuxt Documentation
-          </a>
-          <br>
-          <a
-            href="https://github.com/nuxt/nuxt.js"
-            target="_blank"
-          >
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-flex>
-  </v-layout>
+      <div class="hf_banner_content_box">
+        <h1>헬스장보다 집이 더 편하니까</h1>
+        <h2>원하는 시간에, 원하는 장소로<br>검증된 코치가 찾아갑니다</h2>
+        <nuxt-link to="/bbb" class="hf_banner_search_button trial hf_function_popup_search">무료체험 심청하기</nuxt-link>
+      </div>
+    </div>
+    <div class="hf_banner_movie_popup_button_wrap">
+    </div>
+    <div id="modal-media-video" class="uk-flex-top uk-modal" uk-modal="">
+      <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+        <button class="uk-modal-close-outside uk-close uk-icon" type="button" uk-close=""><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg></button>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import homefit from "../layouts/homefit";
 
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
+  layout: 'homefit'
 }
 </script>

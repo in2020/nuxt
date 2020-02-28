@@ -25,6 +25,14 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/css/uikit.css',
+    '@/assets/css/style.core.css',
+    '@/assets/css/style.core.css',
+    '@/assets/css/style.main.css',
+    '@/assets/css/swiper.css',
+    '@/assets/css/style.form.css',
+    '@/assets/css/style.form.v2.css',
+    '@/assets/css/suggest.css'
   ],
   /*
   ** Plugins to load before mounting the App
