@@ -9,7 +9,7 @@
               <a href="/group/">기업/단체레슨</a>
             </li> -->
             <li>
-              <a href="/user/login/">로그인</a>
+              <a href="/user/login/">로그인111</a>
             </li>
             <li>
               <a href="/user/register/">회원가입</a>
