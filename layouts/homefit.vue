@@ -12,7 +12,7 @@
               <a href="/user/login/">로그인111</a>
             </li>
             <li>
-              <a href="/user/register/">회원가입</a>
+              <a href="/user/register/">회원가입1111</a>
             </li>
             <li>
               <a href="/coach/">코치지원</a>
