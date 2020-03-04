@@ -15,7 +15,7 @@
               <a href="/user/register/">회원가입1111</a>
             </li>
             <li>
-              <a href="/coach/">코치지원</a>
+              <a href="/coach/">코치지원111</a>
             </li>
           </ul>
           <span class="hf_search_button hf_function_popup_search">체험하기</span>
